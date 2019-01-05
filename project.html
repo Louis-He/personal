@@ -2,17 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Louis He</title>
+    <title>Project - Siwei He</title>
+    <link rel="shortcut icon" href="static/images/icon.png">
 </head>
 <!-- Bootstrap core CSS -->
 <link href="static/css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body onload="">
 
 <div class="container">
     <header class="masthead" style="margin-top: 20px;">
         <div class="row">
             <div class="col-5">
-                <h2 class="text-muted">Siwei He</h2>
+                <h2 class="text-muted">
+                    <a href="homepage.html" style="text-decoration: none;">Siwei He</a>
+                </h2>
                 <h6 style="font-size:14px; margin-bottom: 0px">Bachelor of Applied Science - University of Toronto</h6>
                 <h6 style="font-size:14px; margin-top: 0px; margin-bottom: 0px">Meteorological lead of Steve Mann team</h6>
                 <h6 style="font-size:14px; margin-top: 0px">webMaster of UTACE club</h6>
@@ -22,19 +26,23 @@
                     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Education<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="education.html">Education</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Project</a>
+                                <a class="nav-link" href="project.html">Project<span class="sr-only">(current)</span></a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="experience.html">Experience</a>
+                            </li>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="https://github.com/Louis-He">Github</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://www.linkedin.com/in/louis-he-5016a6153/">LinkedIn</a>
+                                <a class="nav-link" href="https://www.linkedin.com/in/louis-he/">LinkedIn</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="contact.html">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -44,36 +52,301 @@
     </header>
 
     <h3 style="padding-top: 20px;">Project</h3>
+
+    <div class="bd-example" style="padding-left: 10%; padding-right: 10%">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="static/images/project1.png" alt="First slide" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4 style="color: black">Air Quality Model</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="static/images/project2.png" alt="Second slide" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4 style="color: black">Weather Monitoring System</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="static/images/project3.png" alt="Third slide" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4 style="color: black">iSlides</h4>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    
     <div class="container" style="font-size:18px; padding-top: 10px; padding-left: 5%; padding-right: 5%">
-        <div class="row" style="padding-top: 20px; padding-bottom: 20px">
+        <div class="row" style="padding-top: 22px; padding-bottom: 20px">
             <div class="col-md-8 order-md-1" style="padding-top: 10px">
-                <strong>University of Toronto - Bachelor of Applied Science</strong>
+                <strong style="font-size:20px;">Air Quality Model based on Machine Learning</strong>
             </div>
             <div class="col-md-4 order-md-2" style="text-align: right; padding-top: 10px; padding-right: 20px">
-                2017.9 - current (expect graduation: 2021)
+                Sep.2018 - current
             </div>
-            <div class="col-md-6  order-md-3" style="padding-top: 10px">
-                Major: Computer Engineering
+            <div class="col-md-12  order-md-3" style="padding-top: 10px">
+                Team Leader
             </div>
-            <div class="col-md-6  order-md-4"  style="padding-top: 10px">
-                <strong>Average Score: 90; CGPA: 3.84</strong>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Website</strong>
+                <br>
+                <a href="https://github.com/Louis-He/L126-H13-Model">https://github.com/Louis-He/L126-H13-Model</a>
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Introduction</strong>
+                <br>
+                The project is to introduce a new method using machine learning in air quality forecast model. We expect to increase the
+                accuracy of the model and at the mean time decrease the cost of computational complexity.
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Status</strong><br>
+                <span class="badge badge-primary">Ongoing</span><br>
+
+                Stage 1: Build a basic air quality forecast model.<br>
+                Stage 2: Collect and search historical Global Forecasting System and air quality grid files.<br>
+                Stage 3: Build a machine learning model based on historical data.<br>
+                Stage 4: Compare the performance between new model and current model.
             </div>
         </div>
 
         <div class="row" style="background-color:#cccccc; padding-top: 20px; padding-bottom: 20px">
             <div class="col-md-8 order-md-1" style="padding-top: 10px">
-                <strong>No.2 high school of East China Normal University</strong>
+                <strong style="font-size:22px;">Sound2mif</strong>
             </div>
             <div class="col-md-4 order-md-2" style="text-align: right; padding-top: 10px; padding-right: 20px">
-                2014.9 - 2017.6
+                Nov.2018 - Dec.2018
             </div>
-            <div class="col-md-6  order-md-3" style="padding-top: 10px">
-                Major: high school with AP courses
+            <div class="col-md-12  order-md-3" style="padding-top: 10px">
+                Individual Project
             </div>
-            <div class="col-md-6  order-md-4"  style="padding-top: 10px">
-                <strong>CGPA: 3.96</strong>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Website</strong>
+                <br>
+                <a href="https://github.com/Louis-He/sound2mif">https://github.com/Louis-He/sound2mif</a>
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Introduction</strong>
+                <br>
+                The project is for the course ECE241H1. It can convert most of the sound wave files(.wav, .mp3, etc.) to verilog
+                RAM files(.mif). This project has already shared with the community.
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Status</strong>
+                <br>
+                <span class="badge badge-success">Completed</span>&ensp;<span class="badge badge-warning">No updates</span><br>
+                No further updates unless major bugs are reported.
             </div>
         </div>
+
+        <div class="row" style="padding-top: 22px; padding-bottom: 20px">
+            <div class="col-md-8 order-md-1" style="padding-top: 10px">
+                <strong style="font-size:20px;">guitar recorder</strong>
+            </div>
+            <div class="col-md-4 order-md-2" style="text-align: right; padding-top: 10px; padding-right: 20px">
+                Nov.2018 - Dec.2018
+            </div>
+            <div class="col-md-12  order-md-3" style="padding-top: 10px">
+                Team Leader
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Website</strong>
+                <br>
+                <a href="https://github.com/Louis-He/241finalProject">https://github.com/Louis-He/241finalProject</a>
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Introduction</strong>
+                <br>
+                ECE241H1 final project. The project is for guitar recording and editor using Verilog and FPGA.
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Status</strong><br>
+                <span class="badge badge-success">Completed</span><br>
+            </div>
+        </div>
+
+        <div class="row" style="background-color:#cccccc; padding-top: 20px; padding-bottom: 20px">
+            <div class="col-md-8 order-md-1" style="padding-top: 10px">
+                <strong style="font-size:22px;">ACE club official website</strong>
+            </div>
+            <div class="col-md-4 order-md-2" style="text-align: right; padding-top: 10px; padding-right: 20px">
+                Aug.2018 - current
+            </div>
+            <div class="col-md-12  order-md-3" style="padding-top: 10px">
+                Individual Project
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Website</strong>
+                <br>
+                <a href="http://www.utace.club">http://www.utace.club</a>
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Introduction</strong>
+                <br>
+                Official website for UTACE club.
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Status</strong><br>
+                <span class="badge badge-success">Operating</span><br>
+                The website is for official use. Regular maintenance is provided.
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 22px; padding-bottom: 20px">
+            <div class="col-md-8 order-md-1" style="padding-top: 10px">
+                <strong style="font-size:20px;">Shanghai Weather Monitoring System</strong>
+            </div>
+            <div class="col-md-4 order-md-2" style="text-align: right; padding-top: 10px; padding-right: 20px">
+                Jun.2018 - Aug.2018
+            </div>
+            <div class="col-md-12  order-md-3" style="padding-top: 10px">
+                Team leader
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Website</strong>
+                <br>
+                <a href="http://station.louishe.xyz/">http://station.louishe.xyz/</a>
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Introduction</strong>
+                <br>
+                The project gathers and stores all available weather information and displays on a single website for meteorological enthusiast to check
+                and chase extreme weather.
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Status</strong><br>
+                <span class="badge badge-success">Operating</span><br>
+                The project is done and will provide further updates for better user experience.
+            </div>
+        </div>
+
+        <div class="row" style="background-color:#cccccc; padding-top: 22px; padding-bottom: 20px">
+            <div class="col-md-8 order-md-1" style="padding-top: 10px">
+                <strong style="font-size:20px;">Air quality data visualization</strong>
+            </div>
+            <div class="col-md-4 order-md-2" style="text-align: right; padding-top: 10px; padding-right: 20px">
+                Oct.2017 - Jan.2018
+            </div>
+            <div class="col-md-12  order-md-3" style="padding-top: 10px">
+                Team leader
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Website</strong>
+                <br>
+                <a href="https://github.com/Louis-He/airchina">https://github.com/Louis-He/airchina</a>
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Introduction</strong>
+                <br>
+                The project automatically downloads Chinese national air quality data hourly and stored in the database.
+                At the mean time, the data will be converted to grid files for further visualization.
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Status</strong><br>
+                <span class="badge badge-success">Completed</span>&ensp;<span class="badge badge-warning">No updates</span><br>
+                Base project for project "Air Quality Model based on Machine Learning". No further updates unless major bugs are reported.
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 20px; padding-bottom: 20px">
+            <div class="col-md-8 order-md-1" style="padding-top: 10px">
+                <strong style="font-size:22px;">Weather data visualization</strong>
+            </div>
+            <div class="col-md-4 order-md-2" style="text-align: right; padding-top: 10px; padding-right: 20px">
+                Oct.2017 - current
+            </div>
+            <div class="col-md-12  order-md-3" style="padding-top: 10px">
+                Individual Project
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Website</strong>
+                <br>
+                <a href="https://weather.louishe.xyz/login">https://weather.louishe.xyz/login</a><br>
+                <a href="https://github.com/Louis-He/station_forecast">https://github.com/Louis-He/station_forecast</a><br>
+                <a href="https://github.com/Louis-He/GFSmodel">https://github.com/Louis-He/GFSmodel</a>
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Introduction</strong>
+                <br>
+                Official website for UTACE club.
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Status</strong>
+                <br>
+                <span class="badge badge-success">Operating</span><br>
+                Further updates will be provided if bugs are reported.
+            </div>
+        </div>
+
+        <div class="row" style="background-color:#cccccc; padding-top: 22px; padding-bottom: 20px">
+            <div class="col-md-8 order-md-1" style="padding-top: 10px">
+                <strong style="font-size:20px;">Remotion</strong>
+            </div>
+            <div class="col-md-4 order-md-2" style="text-align: right; padding-top: 10px; padding-right: 20px">
+                Jul.2017
+            </div>
+            <div class="col-md-12  order-md-3" style="padding-top: 10px">
+                Team member, Wechat program development, Video making
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Website</strong>
+                <br>
+                <a href="https://www.hackx.org/projects/110">https://www.hackx.org/projects/110</a>
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Introduction</strong>
+                <br>
+                The project use Ruff IoT, leap motion, and wechat mini program to control the electrical application in home remotely.
+                The project had the duration of 24 hours. It brought a whole new idea about IoT. With Wi-Fi, a terminal, a server, all of the electric application can be connected each other and the cloud.
+
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Status</strong><br>
+                <span class="badge badge-success">Completed</span>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top: 20px; padding-bottom: 20px">
+            <div class="col-md-8 order-md-1" style="padding-top: 10px">
+                <strong style="font-size:22px;">iSlides</strong>
+            </div>
+            <div class="col-md-4 order-md-2" style="text-align: right; padding-top: 10px; padding-right: 20px">
+                May.2017
+            </div>
+            <div class="col-md-12  order-md-3" style="padding-top: 10px">
+                Team leader
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Website</strong>
+                <br>
+                <a href="https://www.hackx.org/projects/69">https://www.hackx.org/projects/69</a>
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Introduction</strong>
+                <br>
+                The project is used to control the computer (windows system) by using hand gesture for a freer public speaking using Power point.
+            </div>
+            <div class="col-md-12  order-md-4"  style="padding-top: 15px; font-size:16px">
+                <strong>Project Status</strong>
+                <br>
+                <span class="badge badge-success">Completed</span>
+            </div>
+        </div>
+
     </div>
 
     <hr>
@@ -82,12 +355,22 @@
     <footer class="footer">
         <footer class="footer" style="text-align: center">
             <br>
-            <p>copyright &copy;  2018 - 2019 Louis He. all rights reserved.</p>
+            <a href="contact.html" style="text-decoration: none;">Contact Me</a><br>
+            <p>
+                <a href="https://www.linkedin.com/in/louis-he/"><i class="fa fa-linkedin-square" style="font-size:28px; color: #2D76B0"></i></a>
+                &ensp;
+                <a href="https://github.com/Louis-He"><i class="fa fa-github-square" style="font-size:28px; color: #4D2D74"></i></a>
+            </p>
+            <p>last update at Jan.5, 2019<br>copyright &copy;  2018 - 2019 Louis He. all rights reserved.</p>
         </footer>
     </footer>
 
     <!-- javascript -->
+    <script src="static/js/util.js"></script>
+    <script src="static/js/carousel.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="static/js/bootstrap.js"></script>
+    <script src="static/js/bootstrap.bundle.js"></script>
 </div>
 </body>
 </html>
